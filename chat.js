@@ -12,8 +12,8 @@ function sendMessage() {
 function output(input) {
   let product;
   let text = input.toLowerCase().replace(/[^\w\s]/gi, "").replace(/[\d]/gi, "").trim();
-  if(compare(userMessage, reply, text)) {
-    product = compare(userMessage, reply, text);
+  if(compare(userMessage, botReply, text)) {
+    product = compare(userMessage, botReply, text);
   } else if(text.match(/thank/gi)) {
     product = "You're welcome!";
   } else {
@@ -32,4 +32,3 @@ function compare(arr, array, string) {
   }
   return item;
 }
-	  
