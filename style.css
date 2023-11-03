@@ -1,0 +1,39 @@
+* {
+  font-size: 1.3vw;
+  font-family: "Epilogue", sans-serif;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.card {
+  position: absolute;
+  left: 30vw;
+  top: 5vw;
+  height: 50vw;
+  width: 40vw;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  border-radius: 10px;
+  padding: 2vw;
+}
+
+#message-section {
+  height: 40vw;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 1vw;
+}
+
+#user-input {
+  width: 80%;
+}
+
+button {
+  width: 18%;
+  margin-left: 2%;
+}
+  
